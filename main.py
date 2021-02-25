@@ -21,7 +21,3 @@ def count_seq():
         next_step += str(count)
         next_step += number
         current_step = next_step
-
-# Testing
-for i in count_seq():
-    print(i)

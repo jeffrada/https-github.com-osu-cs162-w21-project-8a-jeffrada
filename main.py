@@ -3,6 +3,9 @@
 # Description: A generator function named count_seq that doesn't take any parameters and generates a given sequence.
 
 def count_seq():
+    """
+    A function that yields indefinite terms of the count sequence.
+    """
     current_step = '2'
     while True:
         yield current_step
